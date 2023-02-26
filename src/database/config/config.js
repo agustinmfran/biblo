@@ -1,9 +1,9 @@
 module.exports = {
   development: {
     username: "root",
-    password: "supernova22",
+    password: "flixar",
     database: "biblo_db",
-    host: "34.163.134.235",
+    host: "127.0.0.1",
     dialect: "mysql",
     define: {
       underscored: true,
@@ -12,16 +12,16 @@ module.exports = {
   },
   test: {
     username: "root",
-    password: "supernova22",
-    database: "biblo_db",
-    host: "34.163.134.235",
+    password: "flixar",
+    database: "database_test",
+    host: "127.0.0.1",
     dialect: "mysql",
   },
   production: {
     username: "root",
-    password: "supernova22",
-    database: "biblo_db",
-    host: "34.163.134.235",
+    password: "root",
+    database: "database_production",
+    host: "127.0.0.1",
     dialect: "mysql",
   },
 };
